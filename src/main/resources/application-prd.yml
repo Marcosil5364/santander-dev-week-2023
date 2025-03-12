@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${postgres.railway.internal}:${5432}:${postgresql://postgres:TVrGbsCRzhPDVDqZOuEvkuvRZCXcUCNl@turntable.proxy.rlwy.net:50304/railway}
+    username: ${melodious-commitment}
+    password: ${5077fcc5-4b35-451e-bfb5-e6e287ea8ec4}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
